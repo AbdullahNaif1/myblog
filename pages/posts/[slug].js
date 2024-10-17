@@ -29,7 +29,7 @@ export async function getStaticProps({ params }) {
 export default function Post({ post }) {
   return (
     <div style={{ padding: '20px' }}>
-      <Link href="/">← العودة إلى الصفحة الرئيسية</Link>
+      <Link href="/">←Back to Home Page</Link>
       <h1>{post.fields.title}</h1>
       {post.fields.thumbnail && (
         <Image
